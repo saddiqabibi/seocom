@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SEOcom - Best SEO & Digital Marketing Agency</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="SEO services, digital marketing, PPC advertising, web design, social media marketing, SEO company" name="keywords">
+    <meta content="SEOcom is a leading digital marketing agency offering SEO optimization, web design, social media marketing, PPC advertising and app development services." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5177822330952725"
+     crossorigin="anonymous"></script>
+    <style>
+        /* Trust Badges */
+        .trust-badge {
+            text-align: center;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+        .trust-badge:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .trust-badge i {
+            font-size: 2.5rem;
+            color: var(--bs-primary);
+            margin-bottom: 8px;
+        }
+        .trust-badge span {
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+            font-weight: 600;
+        }
+
+        /* Why Choose Us */
+        .choose-box {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.06);
+            transition: all 0.3s ease;
+            text-align: center;
+            height: 100%;
+        }
+        .choose-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .choose-box i {
+            color: var(--bs-primary);
+            margin-bottom: 15px;
+        }
+        .choose-box h4 {
+            margin-bottom: 10px;
+        }
+        .choose-box p {
+            margin-bottom: 0;
+            color: #555;
+        }
+
+        /* Testimonial */
+        .testimonial-box {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.06);
+            transition: all 0.3s ease;
+            height: 100%;
+            border-left: 4px solid var(--bs-primary);
+        }
+        .testimonial-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .testimonial-box .quote-icon {
+            color: var(--bs-primary);
+            font-size: 2rem;
+            opacity: 0.3;
+            margin-bottom: 10px;
+        }
+        .testimonial-box .testimonial-text {
+            font-style: italic;
+            color: #444;
+            line-height: 1.7;
+        }
+        .testimonial-box .testimonial-author {
+            font-weight: 600;
+            color: var(--bs-dark);
+            margin-top: 10px;
+        }
+        .testimonial-box .testimonial-role {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        .testimonial-box .stars {
+            color: #f59e0b;
+            margin-bottom: 10px;
+        }
+
+        /* FAQ */
+        .faq-box {
+            background: white;
+            padding: 20px 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            margin-bottom: 15px;
+            border-left: 4px solid var(--bs-primary);
+            height: 100%;
+        }
+        .faq-box h5 {
+            color: var(--bs-dark);
+            margin-bottom: 8px;
+        }
+        .faq-box p {
+            margin-bottom: 0;
+            color: #555;
+            font-size: 15px;
+        }
+
+        /* Blog */
+        .blog-item {
+            transition: all 0.3s ease;
+            border-radius: 10px;
+            overflow: hidden;
+            background: white;
+            height: 100%;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        .blog-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+        }
+        .blog-item .blog-img {
+            position: relative;
+            overflow: hidden;
+        }
+        .blog-item .blog-img img {
+            transition: all 0.5s ease;
+            width: 100%;
+        }
+        .blog-item:hover .blog-img img {
+            transform: scale(1.05);
+        }
+        .blog-item .blog-content {
+            padding: 20px;
+            background: white;
+        }
+        .blog-item .blog-content h5 a {
+            color: #111;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .blog-item .blog-content h5 a:hover {
+            color: var(--bs-primary);
+        }
+        .blog-item .blog-content p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .blog-item .blog-content .btn-read-more {
+            font-size: 13px;
+            padding: 4px 15px;
+            border-radius: 50px;
+        }
+
+        /* Brand Partners */
+        .brand-logo {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            transition: 0.3s;
+            filter: grayscale(100%);
+            opacity: 0.7;
+        }
+        .brand-logo:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .brand-logo i {
+            font-size: 3rem;
+            color: #666;
+        }
+        .brand-logo span {
+            display: block;
+            margin-top: 5px;
+            color: #888;
+            font-weight: 600;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--bs-primary), #0056b3);
+            padding: 60px 0;
+        }
+        .cta-section h1 {
+            color: white;
+        }
+        .cta-section p {
+            color: rgba(255,255,255,0.9);
+        }
+
+        /* Service Item */
+        .service-item {
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            overflow: hidden;
+            background: white;
+            height: 100%;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        .service-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+        }
+        .service-item .service-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bs-primary);
+            flex-shrink: 0;
+            transition: 0.5s;
+        }
+        .service-item:hover .service-icon {
+            background: var(--bs-secondary);
+            transform: rotate(360deg);
+        }
+        .service-item .service-icon i {
+            color: white;
+            font-size: 2rem;
+            transition: 0.5s;
+        }
+        .service-item .service-content {
+            padding: 20px 25px 25px;
+            text-align: center;
+        }
+        .service-item .service-content h4 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .service-item .service-content h4 a {
+            color: #111;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .service-item .service-content h4 a:hover {
+            color: var(--bs-primary);
+        }
+        .service-item .service-content p {
+            color: #555;
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .service-item .service-content .btn-learn {
+            background: var(--bs-primary);
+            color: white;
+            border: none;
+            padding: 8px 25px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: 0.3s;
+            font-size: 14px;
+        }
+        .service-item .service-content .btn-learn:hover {
+            background: var(--bs-secondary);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 767px) {
+            .choose-box { padding: 20px 15px; }
+            .testimonial-box { padding: 20px; }
+            .trust-badge { padding: 10px; }
+            .trust-badge i { font-size: 1.8rem; }
+            .service-item .service-content { padding: 15px; }
+            .service-item .service-content h4 { font-size: 1rem; }
+            .service-item .service-icon { width: 60px; height: 60px; }
+            .service-item .service-icon i { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 1: NAVBAR -->
+    <!-- ============================================ -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html" class="navbar-brand">
+                    <h1>SEOcom</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="privacy-policy.html" class="nav-item nav-link">Privacy Policy</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="contact.html" class="btn btn-secondary px-3">Get Started</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- NAVBAR END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 2: HERO -->
+    <!-- ============================================ -->
+    <div class="container-fluid pb-5 hero-header mb-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-3 mb-4 animated slideInRight">All in One <span class="text-white">SEO TOOL</span> Need to Grow Your Business Rapidly</h1>
+                    <p class="fs-5 d-inline-block rounded bg-primary text-white py-3 px-4 mb-0 animated slideInRight">
+                        🏆 An Award Winning Digital Agency Since 2015</p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid animated slideInRight" src="img/hero-header.png" alt="SEO Services">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HERO END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 3: TRUST BADGES -->
+    <!-- ============================================ -->
+    <div class="container-xxl py-4 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-trophy"></i>
+                        <span>Award Winning</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-users"></i>
+                        <span>Expert Team</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <span>Affordable</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-star"></i>
+                        <span>5 Star Service</span>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-md-2">
+                    <div class="trust-badge">
+                        <i class="fas fa-handshake"></i>
+                        <span>Trusted Brand</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TRUST BADGES END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 4: ABOUT -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.2s">
+                    <img class="img-fluid" src="img/about.png" alt="About SEOcom">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="mb-4"><span class="text-uppercase bg-primary text-white rounded px-2">About</span> The Best SEO Solution With 10 Years of Experience</h1>
+                    <p class="mb-4">SEOcom is a premier digital marketing agency dedicated to empowering businesses of all sizes with cutting-edge online marketing strategies. With over 10 years of industry experience, we have successfully helped hundreds of clients across diverse sectors achieve their digital marketing goals through innovative, data-driven approaches.</p>
+                    <p class="mb-4">Our expert team specializes in SEO optimization, responsive web design, social media marketing, and PPC advertising. We are committed to delivering measurable results and exceptional customer service that exceeds expectations.</p>
+                    <p class="mb-4">At SEOcom, we don't just provide services — we build lasting partnerships. Our transparent communication, customized solutions, and relentless pursuit of excellence set us apart from the competition.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Award Winning Agency</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>50+ Expert Team</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>500+ Happy Clients</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>10+ Years Experience</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-primary py-3 px-4 me-2" href="about.html">Learn More</a>
+                        <a class="btn btn-secondary btn-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-secondary btn-square me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-secondary btn-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-secondary btn-square" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 5: WHY CHOOSE US -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-uppercase text-primary">Why Choose Us</h4>
+                <h1 class="display-3 text-capitalize mb-3">Why SEOcom Is The Best Choice</h1>
+                <p class="mb-0">Discover why hundreds of businesses trust SEOcom for their digital marketing needs.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="choose-box">
+                        <i class="fas fa-chart-line fa-3x"></i>
+                        <h4>Proven Results</h4>
+                        <p>We deliver measurable results with data-driven SEO strategies that boost your website rankings and traffic.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="choose-box">
+                        <i class="fas fa-users fa-3x"></i>
+                        <h4>Expert Team</h4>
+                        <p>Our team consists of certified professionals with years of experience in digital marketing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="choose-box">
+                        <i class="fas fa-headset fa-3x"></i>
+                        <h4>24/7 Support</h4>
+                        <p>We provide round-the-clock support to ensure your campaigns are always running smoothly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="choose-box">
+                        <i class="fas fa-dollar-sign fa-3x"></i>
+                        <h4>Affordable Pricing</h4>
+                        <p>We offer competitive pricing without compromising on quality. Digital marketing should be accessible to everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- WHY CHOOSE US END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 6: FEATURES / STATS -->
+    <!-- ============================================ -->
+    <div class="container-fluid bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0 btn-lg-square bg-secondary rounded me-3">
+                            <i class="fa fa-trophy text-white"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-0">Award Winning</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0 btn-lg-square bg-secondary rounded me-3">
+                            <i class="fa fa-users text-white"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-0">Professional Staff</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0 btn-lg-square bg-secondary rounded me-3">
+                            <i class="fa fa-headset text-white"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-0">24/7 Support</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0 btn-lg-square bg-secondary rounded me-3">
+                            <i class="fa fa-money-bill-wave text-white"></i>
+                        </div>
+                        <p class="fs-5 text-white mb-0">Fair Prices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FEATURES END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 7: SERVICES -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="mb-5"><span class="text-uppercase bg-primary text-white rounded px-2">Services</span> What Solutions We Provide</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-chart-line"></i>
+                            </div>
+                            <h4><a href="service.html">SEO Optimization</a></h4>
+                            <p>We optimize your website for search engines to increase organic traffic, improve rankings, and drive more qualified leads to your business.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-laptop-code"></i>
+                            </div>
+                            <h4><a href="service.html">Web Design</a></h4>
+                            <p>We design stunning, responsive websites that engage visitors and convert them into loyal customers. User-friendly and SEO-optimized.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-share-alt"></i>
+                            </div>
+                            <h4><a href="service.html">Social Marketing</a></h4>
+                            <p>We create and manage social media campaigns that build brand awareness, engage audiences, and generate real business results.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-envelope-open-text"></i>
+                            </div>
+                            <h4><a href="service.html">Email Marketing</a></h4>
+                            <p>We design targeted email campaigns that nurture leads, build customer relationships, and drive sales for your business.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-mouse-pointer"></i>
+                            </div>
+                            <h4><a href="service.html">PPC Advertising</a></h4>
+                            <p>We manage pay-per-click campaigns that deliver immediate results, targeting the right audience for maximum ROI.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="service-content">
+                            <div class="service-icon mx-auto">
+                                <i class="fa fa-mobile-alt"></i>
+                            </div>
+                            <h4><a href="service.html">App Development</a></h4>
+                            <p>We build custom mobile applications for iOS and Android that enhance user experience and drive business growth.</p>
+                            <a href="service.html" class="btn-learn">Learn More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 8: STATS / COUNTERS -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5 bg-light wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-lg-3 text-center">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h2 class="display-4 text-primary mb-0">500+</h2>
+                        <p class="text-muted mb-0">Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h2 class="display-4 text-primary mb-0">1000+</h2>
+                        <p class="text-muted mb-0">Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h2 class="display-4 text-primary mb-0">50+</h2>
+                        <p class="text-muted mb-0">Expert Team</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 text-center">
+                    <div class="bg-white p-4 rounded shadow-sm">
+                        <h2 class="display-4 text-primary mb-0">10+</h2>
+                        <p class="text-muted mb-0">Years of Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- STATS END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 9: TESTIMONIALS -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-uppercase text-primary">Testimonials</h4>
+                <h1 class="display-3 text-capitalize mb-3">What Our Clients Say</h1>
+                <p class="mb-0">Real reviews from real clients who trust SEOcom for their digital marketing needs.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"SEOcom took our website from page 3 to page 1 in just 3 months. Our organic traffic has increased by 300%!"</p>
+                        <p class="testimonial-author">John Smith</p>
+                        <p class="testimonial-role">CEO, TechStart</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"The team at SEOcom is professional, responsive, and delivers results. Our ROI has never been better!"</p>
+                        <p class="testimonial-author">Sarah Johnson</p>
+                        <p class="testimonial-role">Marketing Director</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"Highly recommend SEOcom for anyone looking to grow their online presence. They are experts in their field."</p>
+                        <p class="testimonial-author">Michael Brown</p>
+                        <p class="testimonial-role">Business Owner</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="testimonial-box">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">"SEOcom helped us achieve the #1 ranking for our target keywords. Their expertise is unmatched!"</p>
+                        <p class="testimonial-author">Emily Davis</p>
+                        <p class="testimonial-role">E-commerce Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TESTIMONIALS END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 10: BLOG POSTS -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5 bg-light">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-uppercase text-primary">Our Blog</h4>
+                <h1 class="display-3 text-capitalize mb-3">Latest Digital Marketing Tips</h1>
+                <p class="mb-0">Stay updated with the latest trends and tips in digital marketing, SEO, and online growth.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <a href="blog-post-1.html">
+                                <img src="img/project-1.jpg" class="img-fluid w-100" alt="SEO Tips">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <h5><a href="blog-post-1.html">Top 10 SEO Tips to Rank Higher in 2026</a></h5>
+                            <p>Learn the most effective SEO strategies to improve your website rankings and drive organic traffic.</p>
+                            <a href="blog-post-1.html" class="btn btn-primary btn-sm rounded-pill btn-read-more">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <a href="blog-post-2.html">
+                                <img src="img/project-2.jpg" class="img-fluid w-100" alt="Social Media Marketing">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <h5><a href="blog-post-2.html">Social Media Marketing Strategies for 2026</a></h5>
+                            <p>Discover proven social media strategies to build brand awareness and engage your target audience effectively.</p>
+                            <a href="blog-post-2.html" class="btn btn-primary btn-sm rounded-pill btn-read-more">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <a href="blog-post-3.html">
+                                <img src="img/project-3.jpg" class="img-fluid w-100" alt="PPC Advertising">
+                            </a>
+                        </div>
+                        <div class="blog-content">
+                            <h5><a href="blog-post-3.html">PPC Advertising: A Beginner's Guide</a></h5>
+                            <p>Learn everything you need to know about pay-per-click advertising and how to maximize your ROI.</p>
+                            <a href="blog-post-3.html" class="btn btn-primary btn-sm rounded-pill btn-read-more">Read More <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BLOG END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 11: BRAND PARTNERS (NEW) -->
+    <!-- ============================================ -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-uppercase text-primary">Our Partners</h4>
+                <h1 class="display-3 text-capitalize mb-3">Trusted By Leading Brands</h1>
+                <p class="mb-0">We are proud to partner with these trusted organizations.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-building"></i>
+                        <span>Brand 1</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-store"></i>
+                        <span>Brand 2</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-hotel"></i>
+                        <span>Brand 3</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Brand 4</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-school"></i>
+                        <span>Brand 5</span>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-logo">
+                        <i class="fas fa-hospital"></i>
+                        <span>Brand 6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BRAND PARTNERS END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 12: FAQ SECTION -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                <h4 class="text-uppercase text-primary">FAQs</h4>
+                <h1 class="display-3 text-capitalize mb-3">Frequently Asked Questions</h1>
+                <p class="mb-0">Find answers to the most common questions about our digital marketing services.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="faq-box">
+                        <h5><i class="fa fa-question-circle text-primary me-2"></i>How long does SEO take to show results?</h5>
+                        <p>SEO is a long-term strategy. Typically, you can see noticeable results within 3-6 months, depending on competition and industry.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="faq-box">
+                        <h5><i class="fa fa-question-circle text-primary me-2"></i>Do you offer custom web design?</h5>
+                        <p>Yes, we create custom, responsive websites tailored to your brand and business goals. Each design is unique and SEO-optimized.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="faq-box">
+                        <h5><i class="fa fa-question-circle text-primary me-2"></i>How much do your services cost?</h5>
+                        <p>We offer flexible pricing plans based on your needs. Contact us for a free consultation and customized quote.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="faq-box">
+                        <h5><i class="fa fa-question-circle text-primary me-2"></i>Do you provide ongoing support?</h5>
+                        <p>Yes, we offer 24/7 support and ongoing campaign management to ensure your marketing efforts continue to deliver results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 13: CALL TO ACTION -->
+    <!-- ============================================ -->
+    <div class="container-fluid cta-section py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-8 wow fadeInLeft" data-wow-delay="0.2s">
+                    <h1 class="display-4 text-white mb-3">Ready to Grow Your Business?</h1>
+                    <p class="text-white mb-0 fs-5">Let SEOcom help you achieve your online marketing goals. Contact us today for a free consultation!</p>
+                </div>
+                <div class="col-md-4 text-md-end wow fadeInRight" data-wow-delay="0.4s">
+                    <a class="btn btn-secondary btn-lg rounded-pill py-3 px-5" href="contact.html">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 14: NEWSLETTER -->
+    <!-- ============================================ -->
+    <div class="container-fluid bg-primary py-5 my-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.2s">
+                    <h1 class="text-white mb-5">Subscribe the <span class="text-uppercase bg-white text-primary rounded px-2">Newsletter</span></h1>
+                    <div class="position-relative w-100 mb-2">
+                        <input class="form-control border-0 w-100 ps-4 pe-5" type="email" placeholder="Enter Your Email" style="height: 60px;">
+                        <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <p class="text-secondary mb-0">Subscribe to get the latest digital marketing tips and updates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- NEWSLETTER END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 15: CONTACT -->
+    <!-- ============================================ -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="mb-5"><span class="text-uppercase bg-primary text-white rounded px-2">Contact</span> Have Any Query?</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="wow fadeIn" data-wow-delay="0.2s">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="mobile" placeholder="Mobile" required>
+                                        <label for="mobile">Mobile</label>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="form-floating">
+                                        <textarea style="height: 165px" class="form-control" id="message" placeholder="Message" required></textarea>
+                                        <label for="message">Leave a message here</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT END -->
+
+
+    <!-- ============================================ -->
+    <!-- SECTION 16: FOOTER -->
+    <!-- ============================================ -->
+    <div class="container-fluid bg-secondary text-white-50 footer pt-5 mt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h1 class="text-white">SEOcom</h1>
+                    </a>
+                    <p class="mb-0">SEOcom is a leading digital marketing agency dedicated to helping businesses grow online with proven SEO, web design, and marketing strategies.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h4 class="text-white mb-4">Get In Touch</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>123 Digital Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+1 (555) 123-4567</p>
+                    <p><i class="fa fa-envelope me-3"></i>info@seocom.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
+                    <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <h4 class="text-white mb-4">Our Work</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-1.jpg" alt="Project">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-2.jpg" alt="Project">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-3.jpg" alt="Project">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-4.jpg" alt="Project">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-5.jpg" alt="Project">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid rounded w-100" src="img/project-6.jpg" alt="Project">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">SEOcom</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="privacy-policy.html">Privacy</a>
+                            <a href="contact.html">Help</a>
+                            <a href="contact.html">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER END -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
